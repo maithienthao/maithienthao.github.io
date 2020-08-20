@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+</head>
+
+<body>
+    <div class="divsum">
+       
+        <h1>Bella Luna<br>______</h1>
+        <h2>HANDMADE LEATHER</h2>
+        <table class="table">
+        <tr>
+            <td>
+                <img id="logo" src="logo1.jpg">
+            </td>
+            <td>
+                <p class="text1">Bella Luna có niềm đam mê đặc biệt với tất cả các đồ vật có chất liệu da. Sau những giờ làm công việc hành chính tại công ty, lúc tan sở là khi nhà Bella Luna tiếp tục viết đam mê lên những tấm da, và cứ như thế đến khuya mà không biết mệt mỏi.
+
+            Chỉ mơ … <br><br>“Hãy theo đuổi đam mê, thành công sẽ theo đuổi bạn” (câu nói rất đơn giản của chàng Rancho trong bộ phim nổi tiếng Three Idiots).<br><br>Thành công thì không chắc, nhưng được làm điều mình đam mê là điều đẹp đẽ nhất cuộc đời rồi.</p>
+            </td>
+        </tr>  
+        </table class="table">
+      
+        <table>
+            <tr>
+                <td>
+                    <h4>
+                      Sự khác biệt <br>của Bella Luna là gì?
+                    </h4>
+                    <p class="text2">Bella Luna chú trọng chất liệu trong từng sản phẩm. Các sản phẩm đều được làm từ da nhập khẩu từ Colombia️co, là da mới 100%, do đó sản phẩm sẽ có mùi thơm đặc trưng của da xịn.<br><br>Sản phẩm của Bella Luna được đục và may chi tiết bằng tay, do đó đường kim mũi chỉ sẽ có hình ảnh handmade đặc trưng.
+                    </p>
+                </td>
+                <td>
+                    <img id="vi1" src="vi1.jpg">
+                </td>
+            </tr>  
+            </table>
+
+        <h5>Sản Phẩm</h5>
+        <p class="text3">Bella Luna lấy tiêu chí lịch thiệp cho những sản phẩm của mình.
+          <br>
+          Với mỗi dòng sản phẩm, Bella Luna đều có phiên bản riêng dành cho nam và nữ.
+          Bên cạnh đó, chất liệu da, màu sắc và kích thước có thể điều chỉnh theo ý của bạn.</p>
+         
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 7</div>
+              <img class="img" src="Carousel2.jpg" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 7</div>
+              <img class="img" src="Carousel3.jpg" style="width:100%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 7</div>
+              <img class="img" src="Carousel4.jpg" style="width:100%">
+              <div class="text"></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 7</div>
+                <img class="img" src="Carousel5.jpg" style="width:100%">
+                <div class="text"></div>
+              </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 7</div>
+                <img class="img" src="Carousel6.jpg" style="width:100%">
+                <div class="text"></div>
+              </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 7</div>
+                <img class="img" src="Carousel7.jpg" style="width:100%">
+                <div class="text"></div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">7 / 7</div>
+                <img class="img" src="Carousel1.jpg" style="width:100%">
+                <div class="text"></div>
+              </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+           
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+              <span class="dot" onclick="currentSlide(5)"></span> 
+              <span class="dot" onclick="currentSlide(6)"></span>
+              <span class="dot" onclick="currentSlide(7)"></span>
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+      
+        <h6>Liên Hệ
+        </h6>
+        <p class="fb"><a href="https://www.facebook.com/BellaLunaLeather/" target="_top">f</a></p>
+     
+    </div>
+</body>
+<style>
+    
+    body {
+      background-color: rgb(255, 255, 255);
+     }
+    .divsum {
+    background: url(background\ -\ Copy.jpg);
+    width: 92%;
+    background-color: rgba(161, 158, 158, 0.137);
+    border-radius: 0;
+    border: 0;
+    margin-left:2%;
+    margin-right: 2%;
+    margin-top:2%;
+    margin-bottom:2%;
+    padding: 2%;
+    display: block;
+    position: relative;
+    }
+    
+    h1 {
+    text-align: center;
+    font-family: Brush Script MT;
+    font-size: 290%;
+    color: rgb(10, 63, 83);
+    margin-bottom: 0%;
+    margin-top: 17%;
+    }
+    h2 {
+    text-align: center;
+    font-family: Courier;
+    font-size: 140%;
+    color: rgb(73, 89, 95);
+    margin-bottom: 20%;
+     }
+     #logo {
+    margin-left: 50%;
+    width:75%;
+    border-radius: 50%;
+    margin-bottom:210px;
+    }
+    p.text1 {
+    text-align: left;
+    color: rgb(66, 67, 70);
+    font-size: 115%;
+    margin-left:35%;
+    margin-right: 18%;
+    font-family:lato;
+    margin-bottom:210px;
+    }
+    h4 {
+    text-align: left;
+    margin-left:15%;
+    font-family: calibri;
+    font-size: 250%;
+    font-weight: lighter;
+    color: rgb(10, 63, 83);   
+     }
+    p.text2 {
+    text-align: left;
+    color: rgb(66, 67, 70);;
+    font-size: 115%;
+    margin-left:15%;
+    margin-right:28%;
+    font-family:lato;
+    margin-bottom:110px;
+    }
+    #vi1 {
+    width:105%;
+    margin-left:-40%;
+    margin-bottom:110px;
+    }
+    h5 {
+    text-align: center;
+    font-family: calibri;
+    font-size: 250%;
+    font-weight: lighter;
+    color: rgb(10, 63, 83);
+    margin-bottom: 4%;
+    }
+    p.text3 {
+    text-align: center;
+    color: rgb(66, 67, 70);
+    font-size: 116%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom: 7%;
+    font-family:lato;
+    }
+
+
+.slideshow-container {
+  width: 55%;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -5%;
+  padding: 3%;
+  color: white;
+  font-weight: bold;
+  font-size: 100%;
+  transition: 0.6s ease;
+  border-radius: 0 0 0 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 0 0 0 0;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 100%;
+  padding: 2% 2%;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 1%;
+  margin: 0 0%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+h6 {
+    text-align: center;
+    font-family: calibri;
+    font-size: 250%;
+    font-weight: lighter;
+    color: rgb(10, 63, 83);
+    margin-top: 350px;
+    margin-bottom: 50px;
+}
+p.fb, a{
+  
+    text-align: center;
+    font-family: arial;
+    font-size: 140%;
+    font-weight: bold;
+    color: rgb(66, 67, 70);;
+    margin-top: -4%; 
+    margin-bottom: 260px;
+}
+
+#table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    }
+
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  #divsum{
+  background-size: cover;
+  background-position: center center;
+  }
+  h1 {
+    font-size: 40px;
+    margin-bottom: 0%;
+    margin-top: 50%;
+    }
+    h2 {
+    font-size: 17px;
+    margin-bottom: 70%;
+     }
+  #table, tr, td{ 
+		display: block; 
+	}
+  tr, td { 
+		position: relative;
+  }
+  #logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:60%;
+    margin-bottom: 3%;
+    }
+    p.text1, p.text2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    text-align: left;
+    font-size:16px;
+    }
+    p.text1 {
+    margin-bottom: 15%;
+    }
+    p.text2 {
+    margin-bottom: 5%;
+    }
+    h4 {
+    font-size: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    }
+    #vi1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:90%;
+    }
+    h5 {
+    font-size: 35px;
+    }
+    p.text3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    text-align: center;
+    font-size:16px;
+    }
+    .slideshow-container {
+    width: 90%;
+    position: relative;
+    margin: auto;
+    }
+    h6 {
+    margin-top: 310px;
+    margin-bottom: 5%;
+    font-size: 35px;
+    font-weight: normal;
+    }
+    p.fb, a{
+    font-size:30px; 
+    color: rgb(6, 34, 44);
+    }
+}
+
+  </style>
+  
+</html>
